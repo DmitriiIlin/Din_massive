@@ -1,0 +1,43 @@
+('C:\\Users\\Дмитрий\\AppData\\Roaming\\Microsoft\\Windows\\Start '
+ 'Menu\\Programs\\Python '
+ '3.7\\Программы\\Python\\Lesson_3\\build\\Din_massive_tests\\PKG-00.pkg',
+ {'BINARY': 1,
+  'DATA': 1,
+  'EXECUTABLE': 1,
+  'EXTENSION': 1,
+  'PYMODULE': 1,
+  'PYSOURCE': 1,
+  'PYZ': 0},
+ [('PYZ-00.pyz',
+   'C:\\Users\\Дмитрий\\AppData\\Roaming\\Microsoft\\Windows\\Start '
+   'Menu\\Programs\\Python '
+   '3.7\\Программы\\Python\\Lesson_3\\build\\Din_massive_tests\\PYZ-00.pyz',
+   'PYZ'),
+  ('struct',
+   'C:\\Users\\Дмитрий\\AppData\\Local\\Programs\\Python\\Python37-32\\lib\\struct.pyo',
+   'PYMODULE'),
+  ('pyimod01_os_path',
+   'C:\\Users\\Дмитрий\\AppData\\Local\\Programs\\Python\\Python37-32\\lib\\site-packages\\PyInstaller\\loader\\pyimod01_os_path.pyc',
+   'PYMODULE'),
+  ('pyimod02_archive',
+   'C:\\Users\\Дмитрий\\AppData\\Local\\Programs\\Python\\Python37-32\\lib\\site-packages\\PyInstaller\\loader\\pyimod02_archive.pyc',
+   'PYMODULE'),
+  ('pyimod03_importers',
+   'C:\\Users\\Дмитрий\\AppData\\Local\\Programs\\Python\\Python37-32\\lib\\site-packages\\PyInstaller\\loader\\pyimod03_importers.pyc',
+   'PYMODULE'),
+  ('pyiboot01_bootstrap',
+   'C:\\Users\\Дмитрий\\AppData\\Local\\Programs\\Python\\Python37-32\\lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
+   'PYSOURCE'),
+  ('Din_massive_tests',
+   'C:\\Users\\Дмитрий\\AppData\\Roaming\\Microsoft\\Windows\\Start '
+   'Menu\\Programs\\Python '
+   '3.7\\Программы\\Python\\Lesson_3\\Din_massive_tests.py',
+   'PYSOURCE'),
+  ('Din_massive_tests.exe.manifest',
+   'C:\\Users\\Дмитрий\\AppData\\Roaming\\Microsoft\\Windows\\Start '
+   'Menu\\Programs\\Python '
+   '3.7\\Программы\\Python\\Lesson_3\\build\\Din_massive_tests\\Din_massive_tests.exe.manifest',
+   'BINARY')],
+ True,
+ False,
+ False)
