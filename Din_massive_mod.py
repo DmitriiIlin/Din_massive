@@ -32,7 +32,7 @@ class DynArray:
 
     def insert(self,i,itm):
         new_capacity=self.capacity
-        if (self.count+1)>=self.capacity:
+        if (self.count)>=self.capacity:
             new_capacity=2*self.capacity
             self.resize(new_capacity)
         new_array=self.make_array(new_capacity)
