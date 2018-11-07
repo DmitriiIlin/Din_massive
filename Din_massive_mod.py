@@ -24,21 +24,14 @@ class DynArray:
         self.array = new_array
         self.capacity = new_capacity 
 
-    def append(self, itm):
-        if self.count == self.capacity:
-            self.resize(2*self.capacity)
-        self.array[self.count] = itm
-        self.count += 1
-
     def insert(self,i,itm):
-       # new_capacity=self.capacity
         new_array=self.make_array(self.capacity)
         if (self.count)>=self.capacity:
             self.resize(2*self.capacity)
             new_array=self.make_array(2*self.capacity)
-        if i < 0 or i >= (self.count):
+        if i < 0 or i >(self.count):
             raise IndexError('Index is out of bounds')
-        for j in range(self.count):
+        for j in range(self.count+1):
             if (i==j):
                 new_array[j]=itm
                 for jj in range(j+1,self.count+1):
@@ -47,6 +40,9 @@ class DynArray:
             new_array[j]=self.array[j]
         self.array=new_array
         self.count+=1
+    
+    def append(self,itm):
+        self.insert(self.count,itm)
 
     def delete(self,i):
         new_capacity=self.capacity
